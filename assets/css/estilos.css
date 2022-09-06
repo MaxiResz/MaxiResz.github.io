@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.barra-nav{
+    display: flex;  
+    justify-content: flex-end;  
+    flex-flow: row;
+    background-color: bisque;
+}
+nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0;
+
+
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: aliceblue;
+}
+
+    
+
+.titulo h2{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: justify;
+}
+.historia{
+    background-color:bisque;
+}
+.fotoweb{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+
+}
+.fotoweb img{
+    flex-grow: 2;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    max-width: 50%;
+}
+.titulo{
+    flex-grow: 1;
+    padding-left:5em;
+    padding-right: 5em;
+    color: white;
+}
+.titulo h1{
+    text-align: center;
+}
+.email-input{
+    padding-top: 5em;
+}
+.historia h1{
+    text-align: center;
+
+
+}
+.historia p{
+    text-align: justify;
+}
+.historia{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.historia p{
+    padding-left: 5em;
+    padding-right: 5em;
+}
+   
+
+
+
+
+
+
+
+
