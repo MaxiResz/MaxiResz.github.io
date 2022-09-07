@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
 body{
     background-color: black;
     padding: 0;
@@ -8,6 +13,9 @@ body{
     justify-content: flex-end;  
     flex-flow: row;
     background-color: bisque;
+}
+#imagen-png{
+    float: right;
 }
 nav ul{
     display: inline-flex;
@@ -32,7 +40,7 @@ nav ul li a:hover{
     
 
 .titulo h2{
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Rajdhani', sans-serif;
    text-align: justify;
 }
 
@@ -53,9 +61,15 @@ nav ul li a:hover{
     padding-left:5em;
     padding-right: 5em;
     color: white;
+
+
 }
 .titulo h1{
     text-align: center;
+    margin-inline: 0;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    
 }
 .email-input{
     padding-top: 5em;
@@ -83,7 +97,8 @@ grid-column: 1;
 grid-row: 2;
 padding-left: 3em;
 padding-right: 3em;
-justify-content:space-around
+justify-content:space-around;
+font-family: 'Source Code Pro', monospace;
 
 }
 .grid-item3{
@@ -92,6 +107,7 @@ justify-content:space-around
     padding-left: 3em;
     padding-right: 3em;
     justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
 
 }
 .grid-item4{
@@ -99,6 +115,82 @@ justify-content:space-around
     grid-row: 2/4
 
 }
+.email-input h2{
+    font-family: monospace;
+    font-size: 15px;
+}
+.contacto{
+    background-color: white;
+    display: flex;
+    margin-top: 5em;
+}
+.labell{
+    display: flex;
+    margin: auto;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.inputt{
+    display: flex;
+    margin: 3em;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+.container-footer{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: 50% 50%;
+background-color:#595959;
+}
+#conocenos-footer{
+    color: white;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 4em;
+}
+#redes-footer{
+    color: white;
+    grid-column: 2;
+    grid-row: 1;   
+    text-align: start;
+    margin-top: 4em;
+}
+.container-footer p a{
+    text-decoration: none;
+    color: white;
+    
+}
+.container-footer p a:hover{
+    color: aquamarine;
+}
+.terminos-footer{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: start;
+    margin-left: 2em;
+    margin-bottom: 7em;
+    
+    
+}
+.info-footer{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: start;
+}
+#imagen-footer{
+    grid-column: 3;
+    grid-row:1 /span 2;
+    text-align: center;
+    margin-top: 4em;
+    
+      
+    
+}
+
 
 
 

@@ -18,29 +18,36 @@
 
 <body>
     <main>
-
-        <div class="barra-nav">
-            <img src="assets/images/logo-fabrica132.jpeg.png" alt="logo">
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href=".grid-container">Historia</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+        <header>
+            <div class="barra-nav">
+                <div id="imagen-png">
+                <img src="assets/images/logo-fabrica.jpeg.png" alt="logo" width="5%">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Historia</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <div class="fotoweb">
             <img src="https://kotibrushes.co.uk/wp-content/uploads/2017/11/Kleeneze4-139-tufted-and-technical-brush-group-900x250.jpg"
                 alt="fabrica" width="100%">
             <div class="titulo">
-                <h1>Escobillas La Industrial</h1>
+                <h1>Sociedad Escobillera</h1>
+                <h1>"La Industrial"</h1>
                 <h2>Ofrecemos escobillas industriales de la más alta calidad. Utilizamos materiales nobles en
                     todo el proceso de fabricación y llevamos en la industria más de 100 años.</h2>
                 <div class="email-input">
-                    <label>Para cotizar déjanos tu correo:</label>
-                    <input type="email" placeholder="contacto@contacto.cl"></input>
-                    <input type="submit" placeholder="Enviar">
+                    <h2>Envianos un email para cotizar precios!</h2>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="contacto@contacto.cl"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button type="button" class="btn btn-info">Enviar</button>
+                    </div>
                 </div>
 
             </div>
@@ -97,12 +104,57 @@
         <section id="productos">
 
         </section>
-        <section id="contacto">
+        <div class="contacto">
+            <form>
+                <label class="labell" for="contacto">Nombre</label>
+                <input class="inputt" type="text" name="nombre" placeholder="Ingresa tu nombre">
+                <label class="labell" for="Apellidos">Apellidos</label>
+                <input class="inputt" type="text" name="apellidos" placeholder="Ingresa tus apellidos">
+                <label class="labell" for="mail">Correo</label>
+                <input class="inputt" type="mail" name="mail" placeholder="Ingrese su correo electrónico">
+            </form>
 
-        </section>
+        </div>
     </main>
     <footer>
-
+        <div class="container-footer">
+            <div id="conocenos-footer">
+                <h1>Conócenos</h1>
+            </div>
+            <div class="terminos-footer">
+                <ul>
+                    <li>
+                        <p><a href="#">Estamos en: Aníbal Pinto 1477, Independencia</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#">Nuestro Whatsapp es: +56 9 95477763</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#">Información Legal</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#">Términos y Condiciones de Uso</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#">Política y Privacidad</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div id="redes-footer">
+                <h1>Redes sociales</h1>
+            </div>
+            <div class="info-footer">
+                <ul>
+                    <li>
+                        <p><a href="#">Instagram</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#">Facebook</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div id="imagen-footer"><img src="assets/images/logo-fabrica.jpeg.png" alt="logo" width="50%"></div>
+        </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
